@@ -7,7 +7,7 @@ def fib(n):
         return fib(n-1)+fib(n-2)
 
 
-for i in range(0,51):
+for i in range(0,21):
     t=clock()
     l=fib(i)
     print("fib[",i,"] is",l,"running time is %f s" %(clock()-t))
